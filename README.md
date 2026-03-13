@@ -3,7 +3,7 @@ A very basic logger for c++
 - has colors - pretty facy~
 
 ## CMake
-###include FetchContent:
+### include FetchContent:
 ```
 include(FetchContent)
 
@@ -17,7 +17,7 @@ FetchContent_MakeAvailable(Logger)
 ```
 ### link
 ```
-target_link_libraries(particles PRIVATE Logger::Logger)
+target_link_libraries(my_target PRIVATE Logger::Logger)
 ```
 
 ## Meson
